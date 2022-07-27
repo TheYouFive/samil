@@ -38,3 +38,11 @@ input:focus::placeholder {
 textarea:focus::placeholder {
   color: transparent;
 }
+
+.drawer {
+  display: none;
+}
+
+.drawer-content {
+  display: none;
+}
