@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@600&display=swap");
+@import "portfolio.css";
+@import "about.css";
+@import "header.css";
+@import "header-sub.css";
+@import "estimate.css";
+@import "home.css";
+@import "process.css";
+@import "contact.css";
+@import "footer.css";
+@import "scrollTop.css";
+@import "talktalk.css";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  width: 100%;
+}
+
+.inner {
+  width: 1250px;
+  margin: 0 auto;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+textarea:focus::placeholder {
+  color: transparent;
+}

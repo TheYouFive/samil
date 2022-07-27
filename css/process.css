@@ -1,0 +1,25 @@
+.process {
+  margin-top: 150px;
+}
+
+.process-header h3 {
+  color: #03215c;
+  font-weight: 500;
+}
+
+.process-container hr {
+  width: 100%;
+  opacity: 0.3;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.process-image {
+  width: 100%;
+  height: 800px;
+}
+
+.process-image img {
+  width: 100%;
+  height: 100%;
+}
