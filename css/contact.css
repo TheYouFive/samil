@@ -28,6 +28,11 @@
   border: 1px solid black;
 }
 
+#map {
+  width: 100%;
+  height: 100%;
+}
+
 .contact-address {
   display: flex;
   align-items: center;
