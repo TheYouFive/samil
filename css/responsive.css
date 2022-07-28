@@ -97,6 +97,8 @@
     position: fixed;
     opacity: 0;
     visibility: hidden;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     z-index: 9997;
@@ -113,6 +115,10 @@
     visibility: visible;
   }
 
+  .drawer-modal.show {
+    overflow-y: hidden;
+  }
+
   .logo-reponsive a {
     font-size: 24px;
   }
@@ -123,6 +129,10 @@
   }
 
   .header {
+    display: none;
+  }
+
+  .header-sub {
     display: none;
   }
 
@@ -185,5 +195,65 @@
   .talktalk,
   .scroll-top {
     display: none;
+  }
+
+  .footer-content {
+    font-size: 11px;
+  }
+
+  .contact-address {
+    flex-direction: column;
+  }
+
+  .contact-address-left span:last-child {
+    font-size: 19px;
+  }
+
+  .contact-address-right a {
+    margin-top: 30px;
+  }
+
+  .portfolio-list i {
+    font-size: 42px;
+  }
+
+  .portfolio-list span {
+    font-size: 16px;
+  }
+
+  .input-label_box {
+    flex-direction: column;
+  }
+
+  .label-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    padding: 0;
+  }
+
+  .input-box {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+
+  .input-label_box input {
+    width: 100%;
+  }
+
+  .estimate-checkbox {
+    text-align: center;
+  }
+
+  .estimate-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .estimate {
+    margin-top: 150px;
   }
 }

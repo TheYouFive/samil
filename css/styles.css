@@ -26,6 +26,10 @@ body {
   width: 100%;
 }
 
+.body.none {
+  overflow-y: hidden;
+}
+
 .inner {
   width: 1250px;
   margin: 0 auto;
@@ -39,10 +43,8 @@ textarea:focus::placeholder {
   color: transparent;
 }
 
-.drawer {
-  display: none;
-}
-
+.drawer-box,
+.drawer,
 .drawer-content {
   display: none;
 }
