@@ -73,11 +73,11 @@
 }
 
 input[type="date"] {
-  width: 170px;
+  min-width: 55% !important;
 }
 
 input[type="time"] {
-  width: 120px;
+  min-width: 35% !important;
 }
 
 .input-label_box input:focus,

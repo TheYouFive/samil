@@ -298,11 +298,11 @@
   }
 
   input[type="date"] {
-    width: 60% !important;
+    min-width: 55% !important;
   }
 
   input[type="time"] {
-    width: 40% !important;
+    min-width: 35% !important;
   }
 }
 
@@ -398,5 +398,17 @@
   .header,
   .header-sub {
     padding: 0 20px;
+  }
+
+  .date-input {
+    justify-content: center;
+  }
+
+  input[type="date"] {
+    min-width: 55% !important;
+  }
+
+  input[type="time"] {
+    min-width: 35% !important;
   }
 }
