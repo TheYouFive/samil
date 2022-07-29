@@ -294,11 +294,11 @@
   }
 
   input[type="date"] {
-    width: 60%;
+    max-width: 60%;
   }
 
   input[type="time"] {
-    width: 40%;
+    max-width: 40%;
   }
 }
 
