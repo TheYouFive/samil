@@ -27,4 +27,3 @@ for (let i = 0; i < drawerNav.length; i++) {
 
 drawer.addEventListener("click", drawerClick);
 window.addEventListener("scroll", scrollDrawer);
-drawerNav.addEventListener("click", liClick);
