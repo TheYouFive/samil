@@ -264,6 +264,14 @@
     margin: 0 0 20px 0;
   }
 
+  #date {
+    width: 50%;
+  }
+
+  #time {
+    width: 50%;
+  }
+
   .input-label_box input {
     width: 100%;
   }
