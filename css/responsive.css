@@ -293,12 +293,16 @@
     padding-bottom: 15px;
   }
 
+  .date-input {
+    justify-content: center;
+  }
+
   input[type="date"] {
-    max-width: 60%;
+    width: 60% !important;
   }
 
   input[type="time"] {
-    max-width: 40%;
+    width: 40% !important;
   }
 }
 
