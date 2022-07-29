@@ -24,6 +24,7 @@ html {
 body {
   font-family: "Noto Sans KR", sans-serif;
   width: 100%;
+  margin: 0 auto;
 }
 
 .body.none {
