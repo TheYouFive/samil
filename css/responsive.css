@@ -264,12 +264,18 @@
     margin: 0 0 20px 0;
   }
 
-  #date {
-    width: 50%;
+  input[type="date"] {
+    display: block;
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    min-height: 1.2em;
   }
 
-  #time {
-    width: 50%;
+  input[type="time"] {
+    display: block;
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    min-height: 1.2em;
   }
 
   .input-label_box input {
