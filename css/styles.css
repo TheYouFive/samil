@@ -27,10 +27,6 @@ body {
   margin: 0 auto;
 }
 
-.body.none {
-  overflow-y: hidden;
-}
-
 .inner {
   width: 1250px;
   margin: 0 auto;
