@@ -264,14 +264,6 @@
     margin: 0 0 20px 0;
   }
 
-  input[type="date"] {
-    min-width: 50%;
-  }
-
-  input[type="time"] {
-    min-width: 50%;
-  }
-
   .input-label_box input {
     width: 100%;
   }
@@ -299,6 +291,14 @@
   .contact-guide-left span:last-child {
     width: 150px;
     padding-bottom: 15px;
+  }
+
+  input[type="date"] {
+    width: 60%;
+  }
+
+  input[type="time"] {
+    width: 40%;
   }
 }
 

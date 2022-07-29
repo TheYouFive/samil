@@ -72,6 +72,14 @@
   transition: 0.3s;
 }
 
+input[type="date"] {
+  width: 170px;
+}
+
+input[type="time"] {
+  width: 120px;
+}
+
 .input-label_box input:focus,
 textarea:focus {
   border: 1px solid #03215c;
