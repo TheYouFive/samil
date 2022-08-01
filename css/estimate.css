@@ -102,8 +102,6 @@ input[type="date"]::after {
   font-family: "fontawesome";
   content: "\f073";
   right: 10px;
-  top: 50%;
-  transform: translateY(-50%);
   font-size: 14px;
   color: rgb(105, 105, 105);
 }
@@ -113,8 +111,6 @@ input[type="time"]::after {
   font-family: "fontawesome";
   content: "\f017";
   right: 10px;
-  top: 50%;
-  transform: translateY(-50%);
   font-size: 14px;
   color: rgb(105, 105, 105);
 }
@@ -230,6 +226,7 @@ input[type="file" i] {
   border: none;
   cursor: pointer;
   font-size: 17px;
+  font-weight: 400;
 }
 
 .estimate-button button {
