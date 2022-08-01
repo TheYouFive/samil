@@ -298,11 +298,19 @@
   }
 
   input[type="date"] {
-    min-width: 55%;
+    display: block;
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    min-height: 1.2em;
+    width: 60%;
   }
 
   input[type="time"] {
-    min-width: 35%;
+    display: block;
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    min-height: 1.2em;
+    width: 40%;
   }
 }
 
@@ -372,6 +380,22 @@
 
   .input-label_box input {
     width: 100%;
+  }
+
+  input[type="date"] {
+    display: block;
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    min-height: 1.2em;
+    width: 60%;
+  }
+
+  input[type="time"] {
+    display: block;
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    min-height: 1.2em;
+    width: 40%;
   }
 
   .estimate-checkbox {
