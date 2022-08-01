@@ -85,8 +85,8 @@ input[type="date"],
 input[type="time"] {
   position: relative;
   display: block;
-  -webkit-appearance: textfield;
-  -moz-appearance: textfield;
+  -webkit-appearance: none;
+  -moz-appearance: none;
   width: 145px;
 }
 
@@ -94,6 +94,7 @@ input[type="date"]::-webkit-calendar-picker-indicator,
 input[type="time"]::-webkit-calendar-picker-indicator {
   z-index: 1;
   opacity: 0;
+  cursor: pointer;
 }
 
 input[type="date"]::after {
@@ -221,6 +222,7 @@ input[type="file" i] {
 .estimate-button button,
 .estimate-button input {
   background-color: #03215c;
+  -webkit-border-radius: 0;
   color: #ffffff;
   width: 100px;
   height: 40px;
