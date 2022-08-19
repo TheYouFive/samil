@@ -13,6 +13,7 @@
   cursor: pointer;
   transition: 0.3s;
   opacity: 0;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   visibility: hidden;
 }
 
