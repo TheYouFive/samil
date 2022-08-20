@@ -46,6 +46,7 @@
     width: 30px;
     height: 20px;
     z-index: 9999;
+    cursor: pointer;
   }
 
   .drawer-bar {
